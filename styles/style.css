@@ -1,0 +1,39 @@
+body{
+    font-size: 0px;
+}
+
+.wrapper {
+  width: 75%;
+  margin: auto;
+  background-color: pink;
+  height: 800px;
+}
+
+.left {
+  width: 536px;
+  /*width: 50%;*/
+  height: 100px;
+  background-color: red;
+  float: left;
+}
+
+.right {
+  width: 536px;
+  /*width: 50%;*/
+  height: 100px;
+  background-color: blue;
+  float: left;
+}
+
+@media screen and (max-width: 480px) {
+  .wrapper {
+    background-color: lightgreen;
+  }
+  .left {
+    width: 100%;
+  }
+  .right {
+    width: 100%;
+    display: none;
+  }
+}
